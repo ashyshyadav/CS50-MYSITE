@@ -1,0 +1,17 @@
+{%load static%}
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="{%static 'newyear/index.css'%}">
+        <title>MYAPP/INDEX</title>
+    </head>
+    <body>
+    
+        {% if now%}
+            <h1>Happy New Year!</h1>
+        {% else %}
+            <h1>NO</h1>    
+        {% endif %}
+    
+    </body>
+</html> 
